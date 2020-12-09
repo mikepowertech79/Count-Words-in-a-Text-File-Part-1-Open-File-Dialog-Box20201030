@@ -39,6 +39,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btn_countWords = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.button_download = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -150,11 +151,22 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
+            // button_download
+            // 
+            this.button_download.Location = new System.Drawing.Point(296, 6);
+            this.button_download.Name = "button_download";
+            this.button_download.Size = new System.Drawing.Size(75, 23);
+            this.button_download.TabIndex = 11;
+            this.button_download.Text = "Download";
+            this.button_download.UseVisualStyleBackColor = true;
+            this.button_download.Click += new System.EventHandler(this.button_download_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1111, 696);
+            this.Controls.Add(this.button_download);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.btn_countWords);
             this.Controls.Add(this.listBox1);
@@ -186,6 +198,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btn_countWords;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button button_download;
     }
 }
 

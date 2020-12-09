@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -37,7 +39,13 @@ namespace Count_Words_in_a_Text_File__Part_1__Open_File_Dialog_Box20201030
         private void btn_createWordList_Click(object sender, EventArgs e)
         {
             string allWords = textBox1.Text;
-            string[] wordsArray = allWords.Split(' ', ',', '.', '!', '-');
+            //string[] wordsArray = allWords.Split(' ', ',', '.', '!', '-');
+
+
+            
+
+
+            string[] wordsArray = allWords.Split(new[] { "#EXTINF:4.004," }, StringSplitOptions.None);
 
             foreach (string word in wordsArray)
             {
@@ -119,6 +127,18 @@ namespace Count_Words_in_a_Text_File__Part_1__Open_File_Dialog_Box20201030
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button_download_Click(object sender, EventArgs e)
+        {
+
+
+            string addressOfaLink = listBox1.Text;
+
+
+                string filepath = @"C:\Users\Mike\source\repos\VideoDownloaderDeng\file.mp4";
+            WebClient webClient = new WebClient();
+            webClient.DownloadFile(addressOfaLink, filepath);
         }
     }
 }
