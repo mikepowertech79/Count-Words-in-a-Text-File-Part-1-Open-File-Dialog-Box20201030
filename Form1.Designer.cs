@@ -40,6 +40,8 @@
             this.btn_countWords = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.button_download = new System.Windows.Forms.Button();
+            this.buttonDownloadArray = new System.Windows.Forms.Button();
+            this.button1CreateWordListNormal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -105,7 +107,7 @@
             // 
             // btn_createWordList
             // 
-            this.btn_createWordList.Location = new System.Drawing.Point(417, 42);
+            this.btn_createWordList.Location = new System.Drawing.Point(417, 35);
             this.btn_createWordList.Name = "btn_createWordList";
             this.btn_createWordList.Size = new System.Drawing.Size(100, 23);
             this.btn_createWordList.TabIndex = 6;
@@ -115,7 +117,7 @@
             // 
             // btn_sortWords
             // 
-            this.btn_sortWords.Location = new System.Drawing.Point(523, 42);
+            this.btn_sortWords.Location = new System.Drawing.Point(560, 64);
             this.btn_sortWords.Name = "btn_sortWords";
             this.btn_sortWords.Size = new System.Drawing.Size(75, 23);
             this.btn_sortWords.TabIndex = 7;
@@ -146,7 +148,7 @@
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(753, 90);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(330, 589);
+            this.listView1.Size = new System.Drawing.Size(702, 589);
             this.listView1.TabIndex = 10;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
@@ -161,11 +163,33 @@
             this.button_download.UseVisualStyleBackColor = true;
             this.button_download.Click += new System.EventHandler(this.button_download_Click);
             // 
+            // buttonDownloadArray
+            // 
+            this.buttonDownloadArray.Location = new System.Drawing.Point(300, 35);
+            this.buttonDownloadArray.Name = "buttonDownloadArray";
+            this.buttonDownloadArray.Size = new System.Drawing.Size(87, 23);
+            this.buttonDownloadArray.TabIndex = 12;
+            this.buttonDownloadArray.Text = "DownloadArray";
+            this.buttonDownloadArray.UseVisualStyleBackColor = true;
+            this.buttonDownloadArray.Click += new System.EventHandler(this.buttonDownloadArray_Click);
+            // 
+            // button1CreateWordListNormal
+            // 
+            this.button1CreateWordListNormal.Location = new System.Drawing.Point(417, 64);
+            this.button1CreateWordListNormal.Name = "button1CreateWordListNormal";
+            this.button1CreateWordListNormal.Size = new System.Drawing.Size(137, 23);
+            this.button1CreateWordListNormal.TabIndex = 13;
+            this.button1CreateWordListNormal.Text = "Create Word List Normal";
+            this.button1CreateWordListNormal.UseVisualStyleBackColor = true;
+            this.button1CreateWordListNormal.Click += new System.EventHandler(this.button1CreateWordListNormal_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1111, 696);
+            this.ClientSize = new System.Drawing.Size(1467, 696);
+            this.Controls.Add(this.button1CreateWordListNormal);
+            this.Controls.Add(this.buttonDownloadArray);
             this.Controls.Add(this.button_download);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.btn_countWords);
@@ -199,6 +223,8 @@
         private System.Windows.Forms.Button btn_countWords;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button button_download;
+        private System.Windows.Forms.Button buttonDownloadArray;
+        private System.Windows.Forms.Button button1CreateWordListNormal;
     }
 }
 
