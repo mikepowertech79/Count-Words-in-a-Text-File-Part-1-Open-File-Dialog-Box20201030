@@ -107,9 +107,9 @@
             // 
             // btn_createWordList
             // 
-            this.btn_createWordList.Location = new System.Drawing.Point(417, 35);
+            this.btn_createWordList.Location = new System.Drawing.Point(312, 32);
             this.btn_createWordList.Name = "btn_createWordList";
-            this.btn_createWordList.Size = new System.Drawing.Size(100, 23);
+            this.btn_createWordList.Size = new System.Drawing.Size(142, 52);
             this.btn_createWordList.TabIndex = 6;
             this.btn_createWordList.Text = "Create Word List";
             this.btn_createWordList.UseVisualStyleBackColor = true;
@@ -117,7 +117,7 @@
             // 
             // btn_sortWords
             // 
-            this.btn_sortWords.Location = new System.Drawing.Point(560, 64);
+            this.btn_sortWords.Location = new System.Drawing.Point(722, 64);
             this.btn_sortWords.Name = "btn_sortWords";
             this.btn_sortWords.Size = new System.Drawing.Size(75, 23);
             this.btn_sortWords.TabIndex = 7;
@@ -135,7 +135,7 @@
             // 
             // btn_countWords
             // 
-            this.btn_countWords.Location = new System.Drawing.Point(753, 42);
+            this.btn_countWords.Location = new System.Drawing.Point(833, 42);
             this.btn_countWords.Name = "btn_countWords";
             this.btn_countWords.Size = new System.Drawing.Size(75, 23);
             this.btn_countWords.TabIndex = 9;
@@ -155,7 +155,7 @@
             // 
             // button_download
             // 
-            this.button_download.Location = new System.Drawing.Point(296, 6);
+            this.button_download.Location = new System.Drawing.Point(1082, 42);
             this.button_download.Name = "button_download";
             this.button_download.Size = new System.Drawing.Size(75, 23);
             this.button_download.TabIndex = 11;
@@ -165,9 +165,9 @@
             // 
             // buttonDownloadArray
             // 
-            this.buttonDownloadArray.Location = new System.Drawing.Point(300, 35);
+            this.buttonDownloadArray.Location = new System.Drawing.Point(460, 32);
             this.buttonDownloadArray.Name = "buttonDownloadArray";
-            this.buttonDownloadArray.Size = new System.Drawing.Size(87, 23);
+            this.buttonDownloadArray.Size = new System.Drawing.Size(124, 52);
             this.buttonDownloadArray.TabIndex = 12;
             this.buttonDownloadArray.Text = "DownloadArray";
             this.buttonDownloadArray.UseVisualStyleBackColor = true;
@@ -175,7 +175,7 @@
             // 
             // button1CreateWordListNormal
             // 
-            this.button1CreateWordListNormal.Location = new System.Drawing.Point(417, 64);
+            this.button1CreateWordListNormal.Location = new System.Drawing.Point(648, 32);
             this.button1CreateWordListNormal.Name = "button1CreateWordListNormal";
             this.button1CreateWordListNormal.Size = new System.Drawing.Size(137, 23);
             this.button1CreateWordListNormal.TabIndex = 13;
